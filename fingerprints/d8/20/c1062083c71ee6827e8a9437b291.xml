@@ -1,0 +1,41 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-04-08 11:50:12.498 UTC</timestamp>
+  <md5sum>d820c1062083c71ee6827e8a9437b291</md5sum>
+  <fileName>Credential id=8bf81701-003f-4bc7-8345-cd155468a64b name=adminuser</fileName>
+  <usages>
+    <entry>
+      <string>checkstyle_warning</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>chackstyle_job</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>firstPipeline</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>javaEhealth</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1712577012485</timestamp>
+      <itemFullName>firstPipeline</itemFullName>
+      <timestamp0>1712577012485</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1712578529203</timestamp>
+      <itemFullName>javaEhealth</itemFullName>
+      <timestamp0>1712578529203</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1712920022647</timestamp>
+      <nodeName>agent1</nodeName>
+      <timestamp0>1712578400718</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 21
+Specification-Title: Warnings Plugin
+Specification-Version: 11.2
+Implementation-Title: Warnings Plugin
+Implementation-Version: 11.2.2
+Group-Id: io.jenkins.plugins
+Artifact-Id: warnings-ng
+Short-Name: warnings-ng
+Long-Name: Warnings Plugin
+Url: https://github.com/jenkinsci/warnings-ng-plugin
+Plugin-Version: 11.2.2
+Hudson-Version: 2.426.3
+Jenkins-Version: 2.426.3
+Plugin-Dependencies: analysis-model-api:12.1.0,bootstrap5-api:5.3.2-4,ch
+ ecks-api:2.0.2,commons-lang3-api:3.13.0-62.v7d18e55f51e2,commons-text-a
+ pi:1.11.0-95.v22a_d30ee5d36,data-tables-api:1.13.8-4,echarts-api:5.4.3-
+ 4,font-awesome-api:6.5.1-3,forensics-api:2.4.0,gson-api:2.10.1-15.v0d99
+ f670e0a_7,jquery3-api:3.7.1-2,json-api:20240205-27.va_007549e895c,json-
+ path-api:2.9.0-33.v2527142f2e1d,plugin-util-api:4.1.0,prism-api:1.29.0-
+ 13,pull-request-monitoring:335.v525cd64ec76b_;resolution:=optional,work
+ flow-api:1291.v51fd2a_625da_7,workflow-cps:3880.vb_ef4b_5cfd270,workflo
+ w-job:1385.vb_58b_86ea_fff1,workflow-step-api:657.v03b_e8115821b_,antis
+ amy-markup-formatter:162.v0e6ec0fcfcf6,apache-httpcomponents-client-4-a
+ pi:4.5.14-208.v438351942757,credentials:1319.v7eb_51b_3a_c97b_,dashboar
+ d-view:2.508.va_74654f026d1;resolution:=optional,jackson2-api:2.16.1-37
+ 3.ve709c6871598,matrix-project:822.824.v14451b_c0fd42;resolution:=optio
+ nal,structs:337.v1b_04ea_4df7c8,token-macro:400.v35420b_922dcb_;resolut
+ ion:=optional
+Plugin-Developers: Ullrich Hafner:uhafner:ullrich.hafner@gmail.com
+Plugin-License-Name: MIT license
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/warnings-ng-p
+ lugin.git
+Plugin-ScmTag: v11.2.2
+Plugin-ScmUrl: https://github.com/jenkinsci/warnings-ng-plugin
+Plugin-GitHash: 2ddd7f9c71bd482e3f6b8b66a40ccef524af8b0c
+Implementation-Build: 2ddd7f9c71bd482e3f6b8b66a40ccef524af8b0c
+

@@ -1,0 +1,7 @@
+Started by timer
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/test_job
+[test_job] $ /bin/sh -xe /tmp/jenkins11321035677845220544.sh
++ echo Hello world
+Hello world
+Finished: SUCCESS
