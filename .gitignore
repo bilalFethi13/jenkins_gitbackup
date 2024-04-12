@@ -1,16 +1,16 @@
 # Ignore specific directories in the Git repository
 
 # JGit configuration directory
-**/.config/jgit/
+.config/jgit/
 
 # Java fonts directory specific version
-**/.java/fonts/17.0.10/
+.java/fonts/17.0.10/
 
 # Maven local repository
-**/.m2/repository/
+.m2/repository/
 
 # Owner directory
-**/.owner/
+.owner/
 
 # Last started file
-**/.lastStarted
+.lastStarted
