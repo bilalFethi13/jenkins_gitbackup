@@ -33,9 +33,9 @@
       <timestamp0>1712578529203</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
     <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
-      <timestamp>1712920022647</timestamp>
+      <timestamp>1712951236853</timestamp>
       <nodeName>agent1</nodeName>
-      <timestamp0>1712578400718</timestamp0>
+      <timestamp0>1712951123766</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
   </facets>
 </fingerprint>
