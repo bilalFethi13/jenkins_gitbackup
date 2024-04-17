@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2024-04-16T08:53:21.109">
+<file name="/var/lib/jenkins/workspace/Freestyle Project 033/src/main/java/com/mcnz/rps/spring/GameSummaryRepository.java">
+<violation beginline="30" endline="30" begincolumn="3" endcolumn="3" rule="UnnecessarySemicolon" ruleset="Code Style" package="com.mcnz.rps.spring" class="GameSummaryRepository" method="insert" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarysemicolon" priority="3">
+Unnecessary semicolon
+</violation>
+</file>
+<file name="/var/lib/jenkins/workspace/Freestyle Project 033/src/main/java/com/mcnz/rps/spring/GameSummaryService.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="22" rule="UnnecessaryImport" ruleset="Code Style" package="com.mcnz.rps.spring" class="GameSummaryService" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'java.util.List'
+</violation>
+<violation beginline="6" endline="6" begincolumn="1" endcolumn="62" rule="UnnecessaryImport" ruleset="Code Style" package="com.mcnz.rps.spring" class="GameSummaryService" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.springframework.web.bind.annotation.RequestMapping'
+</violation>
+</file>
+<file name="/var/lib/jenkins/workspace/Freestyle Project 033/src/main/java/com/mcnz/rps/spring/Score.java">
+<violation beginline="28" endline="28" begincolumn="53" endcolumn="53" rule="UnnecessarySemicolon" ruleset="Code Style" package="com.mcnz.rps.spring" class="Score" method="increaseWins" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarysemicolon" priority="3">
+Unnecessary semicolon
+</violation>
+</file>
+<file name="/var/lib/jenkins/workspace/Freestyle Project 033/src/main/java/com/mcnz/rps/spring/ScoreRepository.java">
+<violation beginline="41" endline="41" begincolumn="44" endcolumn="54" rule="PrimitiveWrapperInstantiation" ruleset="Best Practices" package="com.mcnz.rps.spring" class="ScoreRepository" method="findScore" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#primitivewrapperinstantiation" priority="3">
+Do not use `new Long(...)`, prefer `Long.valueOf(...)`
+</violation>
+</file>
+<file name="/var/lib/jenkins/workspace/Freestyle Project 033/src/main/java/com/mcnz/rps/spring/ScoreService.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="22" rule="UnnecessaryImport" ruleset="Code Style" package="com.mcnz.rps.spring" class="ScoreService" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'java.util.List'
+</violation>
+<violation beginline="46" endline="46" begincolumn="37" endcolumn="37" rule="UnnecessarySemicolon" ruleset="Code Style" package="com.mcnz.rps.spring" class="ScoreService" method="increaseWins" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarysemicolon" priority="3">
+Unnecessary semicolon
+</violation>
+<violation beginline="56" endline="56" begincolumn="37" endcolumn="37" rule="UnnecessarySemicolon" ruleset="Code Style" package="com.mcnz.rps.spring" class="ScoreService" method="increaseLosses" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarysemicolon" priority="3">
+Unnecessary semicolon
+</violation>
+<violation beginline="66" endline="66" begincolumn="37" endcolumn="37" rule="UnnecessarySemicolon" ruleset="Code Style" package="com.mcnz.rps.spring" class="ScoreService" method="increaseTies" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarysemicolon" priority="3">
+Unnecessary semicolon
+</violation>
+</file>
+</pmd>

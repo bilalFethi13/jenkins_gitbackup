@@ -1,0 +1,99 @@
+Started by user [8mha:////4Gca9mBWBzd/lg33yTkXSgpnBvzEk6UZc4sfjxDCmGChAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9pMycxBxDYwBvIV7qwgAAAA==[0mbilal fethi
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/checkstyle_warning
+The recommended git tool is: NONE
+using credential 8bf81701-003f-4bc7-8345-cd155468a64b
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/checkstyle_warning/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitlab.com/luc2526/jenkins_checkstyle.git # timeout=10
+Fetching upstream changes from https://gitlab.com/luc2526/jenkins_checkstyle.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_SSH to set credentials 
+Verifying host key using known hosts file
+[8mha:////4JSKzfWAw4QquJyN1ZHVhH0UkyfdrHQ6YqOH4Lx8+w5XAAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgmEo2IFE6fjN+19fes8vTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+Kx+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6AcdrEU/1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- https://gitlab.com/luc2526/jenkins_checkstyle.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision cd1530c1d8cf060b3e9e88227d20e0c2d1692ac9 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cd1530c1d8cf060b3e9e88227d20e0c2d1692ac9 # timeout=10
+Commit message: "Update Sample.java"
+ > git rev-list --no-walk cd1530c1d8cf060b3e9e88227d20e0c2d1692ac9 # timeout=10
+[checkstyle_warning] $ /var/lib/jenkins/tools/hudson.tasks.Ant_AntInstallation/checkstyle/bin/ant checkstyle
+Buildfile: /var/lib/jenkins/workspace/checkstyle_warning/build.xml
+
+[8mha:////4CXGsxVNjSnoxhT93tMg9skmuYAOgz2E5fvgrXQtcdThAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcheckstyle:
+[checkstyle] Running Checkstyle 8.23 on 1 files
+
+[8mha:////4DHiUmJEri9fhopRZPk4iZ9sOHYDfVwKsyW317crX0gbAAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 1 second
+[CheckStyle] Using default pattern '**/checkstyle-result.xml' since user defined pattern is not set
+[CheckStyle] Searching for all files in '/var/lib/jenkins/workspace/checkstyle_warning' that match the pattern '**/checkstyle-result.xml'
+[CheckStyle] Traversing of symbolic links: enabled
+[CheckStyle] -> found 1 file
+[CheckStyle] Successfully parsed file /var/lib/jenkins/workspace/checkstyle_warning/checkstyle-result.xml
+[CheckStyle] -> found 3 issues (skipped 0 duplicates)
+[CheckStyle] Successfully processed file 'checkstyle-result.xml'
+[CheckStyle] Post processing issues on 'Master' with source code encoding 'UTF-8'
+[CheckStyle] Creating SCM blamer to obtain author and commit information for affected files
+[CheckStyle] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[CheckStyle] Resolving file names for all issues in workspace '/var/lib/jenkins/workspace/checkstyle_warning'
+[CheckStyle] -> resolved paths in source directory (1 found, 0 not found)
+[CheckStyle] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[CheckStyle] -> resolved module names for 3 issues
+[CheckStyle] Resolving package names (or namespaces) by parsing the affected files
+[CheckStyle] -> resolved package names of 1 affected files
+[CheckStyle] No filter has been set, publishing all 3 issues
+[CheckStyle] Creating fingerprints for all affected code blocks to track issues over different builds
+[CheckStyle] -> created fingerprints for 3 issues (skipped 0 issues)
+[CheckStyle] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/checkstyle_warning/builds/6/files-with-issues'
+[CheckStyle] -> 1 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[CheckStyle] Repository miner is not configured, skipping repository mining
+[CheckStyle] Searching for all files in '/var/lib/jenkins/workspace/checkstyle_warning' that match the pattern '**/checkstyle-result.xml'
+[CheckStyle] Traversing of symbolic links: enabled
+[CheckStyle] -> found 1 file
+[CheckStyle] Successfully parsed file /var/lib/jenkins/workspace/checkstyle_warning/checkstyle-result.xml
+[CheckStyle] -> found 3 issues (skipped 0 duplicates)
+[CheckStyle] Successfully processed file 'checkstyle-result.xml'
+[CheckStyle] Post processing issues on 'Master' with source code encoding 'UTF-8'
+[CheckStyle] Creating SCM blamer to obtain author and commit information for affected files
+[CheckStyle] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[CheckStyle] Resolving file names for all issues in workspace '/var/lib/jenkins/workspace/checkstyle_warning'
+[CheckStyle] -> resolved paths in source directory (1 found, 0 not found)
+[CheckStyle] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[CheckStyle] -> resolved module names for 3 issues
+[CheckStyle] Resolving package names (or namespaces) by parsing the affected files
+[CheckStyle] -> resolved package names of 1 affected files
+[CheckStyle] No filter has been set, publishing all 3 issues
+[CheckStyle] Creating fingerprints for all affected code blocks to track issues over different builds
+[CheckStyle] -> created fingerprints for 3 issues (skipped 0 issues)
+[CheckStyle] Searching for all files in '/var/lib/jenkins/workspace/checkstyle_warning' that match the pattern '**/checkstyle-result.xml'
+[CheckStyle] Traversing of symbolic links: enabled
+[CheckStyle] -> found 1 file
+[CheckStyle] Successfully parsed file /var/lib/jenkins/workspace/checkstyle_warning/checkstyle-result.xml
+[CheckStyle] -> found 3 issues (skipped 0 duplicates)
+[CheckStyle] Successfully processed file 'checkstyle-result.xml'
+[CheckStyle] Post processing issues on 'Master' with source code encoding 'UTF-8'
+[CheckStyle] Creating SCM blamer to obtain author and commit information for affected files
+[CheckStyle] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[CheckStyle] Resolving file names for all issues in workspace '/var/lib/jenkins/workspace/checkstyle_warning'
+[CheckStyle] -> resolved paths in source directory (1 found, 0 not found)
+[CheckStyle] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[CheckStyle] -> resolved module names for 3 issues
+[CheckStyle] Resolving package names (or namespaces) by parsing the affected files
+[CheckStyle] -> resolved package names of 1 affected files
+[CheckStyle] No filter has been set, publishing all 3 issues
+[CheckStyle] Creating fingerprints for all affected code blocks to track issues over different builds
+[CheckStyle] -> created fingerprints for 3 issues (skipped 0 issues)
+[CheckStyle] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/checkstyle_warning/builds/6/files-with-issues'
+[CheckStyle] -> 1 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[CheckStyle] Repository miner is not configured, skipping repository mining
+[CheckStyle] Reference build recorder is not configured
+[CheckStyle] No valid reference build found
+[CheckStyle] All reported issues will be considered outstanding
+[CheckStyle] No quality gates have been set - skipping
+[CheckStyle] Health report is disabled - skipping
+[CheckStyle] Created analysis result for 3 issues (found 0 new issues, fixed 0 issues)
+[CheckStyle] Attaching ResultAction with ID 'checkstyle' to build 'checkstyle_warning #6'.
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

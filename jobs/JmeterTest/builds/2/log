@@ -1,0 +1,38 @@
+Started by user [8mha:////4Gca9mBWBzd/lg33yTkXSgpnBvzEk6UZc4sfjxDCmGChAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9pMycxBxDYwBvIV7qwgAAAA==[0mbilal fethi
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/JmeterTest
+[JmeterTest] $ cmd /c call /tmp/jenkins15646447862358975871.bat
+FATAL: command execution failed
+java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+Caused: java.io.IOException: Cannot run program "cmd" (in directory "/var/lib/jenkins/workspace/JmeterTest"): error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at hudson.Proc$LocalProc.<init>(Proc.java:252)
+	at hudson.Proc$LocalProc.<init>(Proc.java:221)
+	at hudson.Launcher$LocalLauncher.launch(Launcher.java:994)
+	at hudson.Launcher$ProcStarter.start(Launcher.java:506)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:144)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:92)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1895)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Build step 'Execute Windows batch command' marked build as failure
+Creating parser with percentiles:'0,50,90,95,100,' filterRegex:
+Performance: Recording JMeterCsv reports '/var/lib/jenkins/jobs/JmeterTest/builds/2/temp/result.jtl'
+Performance: JMeterCsv copying reports to master, files '[/var/lib/jenkins/jobs/JmeterTest/builds/2/temp/result.jtl]'
+Performance: JMeterCsv parsing local reports '[/var/lib/jenkins/jobs/JmeterTest/builds/2/performance-reports/JMeterCSV/result.jtl]'
+Performance: Parsing report file '/var/lib/jenkins/jobs/JmeterTest/builds/2/performance-reports/JMeterCSV/result.jtl' with filterRegex ''.
+Performance: No threshold configured for making the test unstable
+Performance: No threshold configured for making the test failure
+Performance: File result.jtl reported 18.182% of errors [SUCCESS]. Build status is: FAILURE
+Finished: FAILURE

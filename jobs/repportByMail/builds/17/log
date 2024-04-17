@@ -1,0 +1,308 @@
+Started by user [8mha:////4Gca9mBWBzd/lg33yTkXSgpnBvzEk6UZc4sfjxDCmGChAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9pMycxBxDYwBvIV7qwgAAAA==[0mbilal fethi
+Obtained Jenkinsfile from git https://gitlab.com/bifethi/findbugsmdp.git
+[8mha:////4CNGB/hLBvfy//DSv0vZkW5oajASR9xIYFvwe0kdhar+AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4O++ejJR/SrowDUdL9BFbDpYPsPFkr1RJOlizoT/TT0sAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4FzPFQBDtH3BgnhLuCzxV8QNQHBgSwdfiVxt9MuXYcXuAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/repportByMail
+[8mha:////4Pa+AHbcBDXXbgRJsGASuhgb1MNstzYcuyvE9Dt4Er6aAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4FY58Ti/B1VL8Y8BvJs5j6iz3uUqC7EiW1LLbqpYKcP7AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4NaDEbanVyM7eXs14wRVRm1j1idd+QAs0WWewNlZ2poHAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4AHDGmR9S4XVHrUL9o4WRHed4gYCOLSkeXhSFd8nhldtAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential 8bf81701-003f-4bc7-8345-cd155468a64b
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/repportByMail/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitlab.com/bifethi/findbugsmdp.git # timeout=10
+Fetching upstream changes from https://gitlab.com/bifethi/findbugsmdp.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_SSH to set credentials 
+Verifying host key using known hosts file
+[8mha:////4JSKzfWAw4QquJyN1ZHVhH0UkyfdrHQ6YqOH4Lx8+w5XAAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgmEo2IFE6fjN+19fes8vTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+Kx+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6AcdrEU/1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- https://gitlab.com/bifethi/findbugsmdp.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 9bb39da55107856dfbc2ece87cb9aed81f4a2d18 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9bb39da55107856dfbc2ece87cb9aed81f4a2d18 # timeout=10
+Commit message: "Update file Jenkinsfile"
+ > git rev-list --no-walk 9bb39da55107856dfbc2ece87cb9aed81f4a2d18 # timeout=10
+[8mha:////4HEyTv9n4Bpl6VP+T27eFM6LQbszRgqDBg6A/XzVzj4pAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4MPaEb6kUpZ+qzbsjqPS6Difn1B4/HaQZmN1SLFpkEUoAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4FHZEx0M0grQgp29rnwmuUYo6PXVJoJSE65IMgyYIOqUAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4GEIaWiTFun3UzwOy1lVjv9W7HwgxrBO0BGx/H3ItUr8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4LrjJmU02Y1uLNTOdvQtLeProBrk1PtY2Ap0yjFhBQzRAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4HhEip2DEus7PfDtVgc1rCG1ofkGWmUB0eIYjnt0iwdfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4BpK0k2O5RVgTzOH/F4lP5Fe16oaZjZcVexF8KVXHpzrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] tool
+[8mha:////4NgD5+gSzFdsG90MSgyYvs8+nT/1w2LO+UnItu+zcu42AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4KozUG0c+TLdRjQhsNJ4u22xwf27NBrrQ8wHG2I49jvXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4Eo0uoUh4EIZhC+tuvmKm+UXsDZKaPvWkz1pftaCRUePAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4AifRT9chfzb994eaHnddu6bGSGsjtMpFKqIq69b1dtiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] withEnv
+[8mha:////4JzYeeKdZqMSP7cLoXWWN3My1RjLBsUOTbHISyJp1E9OAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4GI4B6tn/0wMi0AIVxmzBnSF7GrOFm3TdIHd6GflcdgEAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] stage
+[8mha:////4Bv35uxxyf62rxuoyijW22rYdN037cTKBGz0Y90Mh8zxAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Checkout)
+[8mha:////4BnUIacYBTrSBmRKpES02xMCYiuAubdfrWJzHRPDDvvSAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] tool
+[8mha:////4Od2UReRW4wnOUc7tz3R2T5crZHCOh4albhQ5DV9D4UEAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/eXoq5oL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4Lyql12tZT+0YzYnU6UdAX3gvn7LGykeBJoO5n6B2dQEAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAR8nhQvCAAAA[0m[Pipeline] withEnv
+[8mha:////4GL3btOP7xprvs2DKdoi3Qf7BNFz8b52Uiqv9NJh1xEMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4HsWubNx+8A2gCJOq3Yel3d6aqCw1P6vOGFhREaB9IKUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential 8bf81701-003f-4bc7-8345-cd155468a64b
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/repportByMail/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitlab.com/bifethi/findbugsmdp.git # timeout=10
+Fetching upstream changes from https://gitlab.com/bifethi/findbugsmdp.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_SSH to set credentials 
+Verifying host key using known hosts file
+[8mha:////4JSKzfWAw4QquJyN1ZHVhH0UkyfdrHQ6YqOH4Lx8+w5XAAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgmEo2IFE6fjN+19fes8vTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+Kx+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6AcdrEU/1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- https://gitlab.com/bifethi/findbugsmdp.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 9bb39da55107856dfbc2ece87cb9aed81f4a2d18 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9bb39da55107856dfbc2ece87cb9aed81f4a2d18 # timeout=10
+Commit message: "Update file Jenkinsfile"
+[8mha:////4MLakYXUp3ZnLbq4xBazb6nz8QGT5ORzBeNZXNihPzUsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3QKkBhvgAAAA==[0m[Pipeline] }
+[8mha:////4GK1ZrnWzE8Fevx5k0HkNbQVRChmE8cqnzGjoGG3hZMSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2TqBHnvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4LwOHVHaR1+LccyyyF0JlbDjiPhY2+ppa1hbLAp4SFRIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BrmPJ1y+AAAA[0m[Pipeline] }
+[8mha:////4PpHG6USV0MgCK5RlDNYlmjDucvQgfPeU7FMDMUSDhsTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOISQYmo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzUufb1B1PlWKq+AAAA[0m[Pipeline] // stage
+[8mha:////4E1ShcVevzNEzKJ/f6/ABopXEb30vHBw1Y1OBQ27NxroAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFRNCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQGtjmIwwgAAAA==[0m[Pipeline] stage
+[8mha:////4EG3XGPhP0uMjVLik3oYYzcrsBdRCcyMhrhkFhvwR1XeAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (Build and Analyze)
+[8mha:////4JZYG01LrlMrwIDRm5IH0QVWUrEs7aEGWrZU8TP/db9MAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] tool
+[8mha:////4BBZSaHzbB6aiEH7Qgs+oknbWhLkMBpKbu8pmwiuHxpqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBq1seBO+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4AZg8SuCJsxproF5N5FM+KmQhBIXas1i6I9ithHx8lFlAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8v5vtMD+LD2DV6WTCAAAA[0m[Pipeline] withEnv
+[8mha:////4NX/ONOKqxOVnLxHhbjE5WazVPZYdDR2nWUDu2d/fA9mAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] {
+[8mha:////4ImCg8e5/pBxPsCWMuOzY7cI4Slvpxyreknhgi0AaXVKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] echo
+Building and running static analysis...
+[8mha:////4NS5oO8hAxAo+OG0KGHA+iiQobnAdcHrKGjYKQVux3nTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q2yB4JLvgAAAA==[0m[Pipeline] sh
++ mvn clean install pmd:pmd
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.example:demo:jar:0.0.1-SNAPSHOT
+[[1;33mWARNING[m] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.derby:derby:jar -> duplicate declaration of version (?) @ line 82, column 15
+[[1;33mWARNING[m] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.boot:spring-boot-configuration-processor:jar -> duplicate declaration of version (?) @ line 86, column 15
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mcom.example:demo[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding demo 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.0.0:clean[m [1m(default-clean)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Deleting /var/lib/jenkins/workspace/repportByMail/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.1:resources[m [1m(default-resources)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 9 source files to /var/lib/jenkins/workspace/repportByMail/target/classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/repportByMail/src/main/java/com/mcnz/rps/spring/ScoreRepository.java: /var/lib/jenkins/workspace/repportByMail/src/main/java/com/mcnz/rps/spring/ScoreRepository.java uses or overrides a deprecated API that is marked for removal.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/repportByMail/src/main/java/com/mcnz/rps/spring/ScoreRepository.java: Recompile with -Xlint:removal for details.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/repportByMail/src/main/java/com/mcnz/rps/spring/ScoreRepository.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/repportByMail/src/main/java/com/mcnz/rps/spring/ScoreRepository.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.1:testResources[m [1m(default-testResources)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/repportByMail/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.21.0:test[m [1m(default-test)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.0.2:jar[m [1m(default-jar)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/repportByMail/target/demo-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.0.2.RELEASE:repackage[m [1m(default)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mmaven-pmd-plugin:3.14.0:check[m [1m(default)[0;1m > [0;1m:pmd[m @ [36mdemo[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-pmd-plugin:3.14.0:pmd[m [1m(pmd)[m @ [36mdemo[0;1m ---[m
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;33mWARNING[m] Unable to exclude rules [RuleNameToExclude] from ruleset reference rulesets/java/quickstart.xml; perhaps the rule name is misspelled or the rule doesn't exist anymore?
+[[1;33mWARNING[m] RuleSet description is missing. Future versions of PMD will require it.
+[[1;33mWARNING[m] Unable to exclude rules [RuleNameToExclude] from ruleset reference rulesets/java/quickstart.xml; perhaps the rule name is misspelled or the rule doesn't exist anymore?
+[[1;33mWARNING[m] RuleSet description is missing. Future versions of PMD will require it.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mmaven-pmd-plugin:3.14.0:check[m [1m(default)[0;1m < [0;1m:pmd[m @ [36mdemo[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-pmd-plugin:3.14.0:check[m [1m(default)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] PMD version: 6.29.0
+[[1;34mINFO[m] You have 16 PMD violations. For more details see: /var/lib/jenkins/workspace/repportByMail/target/pmd.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/repportByMail/target/demo-0.0.1-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/example/demo/0.0.1-SNAPSHOT/demo-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/repportByMail/pom.xml to /var/lib/jenkins/.m2/repository/com/example/demo/0.0.1-SNAPSHOT/demo-0.0.1-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-pmd-plugin:3.14.0:pmd[m [1m(default-cli)[m @ [36mdemo[0;1m ---[m
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;33mWARNING[m] Unable to exclude rules [RuleNameToExclude] from ruleset reference rulesets/java/quickstart.xml; perhaps the rule name is misspelled or the rule doesn't exist anymore?
+[[1;33mWARNING[m] RuleSet description is missing. Future versions of PMD will require it.
+[[1;33mWARNING[m] Unable to exclude rules [RuleNameToExclude] from ruleset reference rulesets/java/quickstart.xml; perhaps the rule name is misspelled or the rule doesn't exist anymore?
+[[1;33mWARNING[m] RuleSet description is missing. Future versions of PMD will require it.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  10.687 s
+[[1;34mINFO[m] Finished at: 2024-04-16T13:19:11Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4PPoAaTHz4Ua2yKog0zI6h4TYBUyr6TnQeRRdJXWfy6ZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q3zNplSvgAAAA==[0m[Pipeline] sh
++ mvn clean install findbugs:findbugs
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.example:demo:jar:0.0.1-SNAPSHOT
+[[1;33mWARNING[m] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.derby:derby:jar -> duplicate declaration of version (?) @ line 82, column 15
+[[1;33mWARNING[m] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.boot:spring-boot-configuration-processor:jar -> duplicate declaration of version (?) @ line 86, column 15
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] The POM for org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 is missing, no dependency information available
+[[1;33mWARNING[m] Failed to retrieve plugin descriptor for org.eclipse.m2e:lifecycle-mapping:1.0.0: Plugin org.eclipse.m2e:lifecycle-mapping:1.0.0 or one of its dependencies could not be resolved: Failure to find org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mcom.example:demo[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding demo 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 is missing, no dependency information available
+[[1;33mWARNING[m] Failed to retrieve plugin descriptor for org.eclipse.m2e:lifecycle-mapping:1.0.0: Plugin org.eclipse.m2e:lifecycle-mapping:1.0.0 or one of its dependencies could not be resolved: Failure to find org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.0.0:clean[m [1m(default-clean)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Deleting /var/lib/jenkins/workspace/repportByMail/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.1:resources[m [1m(default-resources)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 9 source files to /var/lib/jenkins/workspace/repportByMail/target/classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/repportByMail/src/main/java/com/mcnz/rps/spring/ScoreRepository.java: /var/lib/jenkins/workspace/repportByMail/src/main/java/com/mcnz/rps/spring/ScoreRepository.java uses or overrides a deprecated API that is marked for removal.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/repportByMail/src/main/java/com/mcnz/rps/spring/ScoreRepository.java: Recompile with -Xlint:removal for details.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/repportByMail/src/main/java/com/mcnz/rps/spring/ScoreRepository.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/repportByMail/src/main/java/com/mcnz/rps/spring/ScoreRepository.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.1:testResources[m [1m(default-testResources)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/repportByMail/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.21.0:test[m [1m(default-test)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.0.2:jar[m [1m(default-jar)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/repportByMail/target/demo-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.0.2.RELEASE:repackage[m [1m(default)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mmaven-pmd-plugin:3.14.0:check[m [1m(default)[0;1m > [0;1m:pmd[m @ [36mdemo[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-pmd-plugin:3.14.0:pmd[m [1m(pmd)[m @ [36mdemo[0;1m ---[m
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;33mWARNING[m] Unable to exclude rules [RuleNameToExclude] from ruleset reference rulesets/java/quickstart.xml; perhaps the rule name is misspelled or the rule doesn't exist anymore?
+[[1;33mWARNING[m] RuleSet description is missing. Future versions of PMD will require it.
+[[1;33mWARNING[m] Unable to exclude rules [RuleNameToExclude] from ruleset reference rulesets/java/quickstart.xml; perhaps the rule name is misspelled or the rule doesn't exist anymore?
+[[1;33mWARNING[m] RuleSet description is missing. Future versions of PMD will require it.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mmaven-pmd-plugin:3.14.0:check[m [1m(default)[0;1m < [0;1m:pmd[m @ [36mdemo[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-pmd-plugin:3.14.0:check[m [1m(default)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] PMD version: 6.29.0
+[[1;34mINFO[m] You have 16 PMD violations. For more details see: /var/lib/jenkins/workspace/repportByMail/target/pmd.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/repportByMail/target/demo-0.0.1-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/example/demo/0.0.1-SNAPSHOT/demo-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/repportByMail/pom.xml to /var/lib/jenkins/.m2/repository/com/example/demo/0.0.1-SNAPSHOT/demo-0.0.1-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mfindbugs-maven-plugin:3.0.5:findbugs[m [1m(default-cli)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Fork Value is true
+     [java] WARNING: A terminally deprecated method in java.lang.System has been called
+     [java] WARNING: System::setSecurityManager has been called by edu.umd.cs.findbugs.ba.jsr305.TypeQualifierValue (file:/var/lib/jenkins/.m2/repository/com/google/code/findbugs/findbugs/3.0.1/findbugs-3.0.1.jar)
+     [java] WARNING: Please consider reporting this to the maintainers of edu.umd.cs.findbugs.ba.jsr305.TypeQualifierValue
+     [java] WARNING: System::setSecurityManager will be removed in a future release
+     [java] The following classes needed for analysis were missing:
+     [java]   java.lang.Object
+     [java]   java.lang.Enum
+     [java]   java.io.PrintStream
+     [java]   java.lang.StringBuilder
+     [java]   java.lang.String
+     [java]   java.lang.Long
+     [java]   java.util.Date
+     [java]   java.util.List
+     [java]   java.lang.NoSuchFieldError
+     [java]   java.lang.UnsatisfiedLinkError
+     [java]   java.lang.NoClassDefFoundError
+     [java]   java.io.Serializable
+     [java] Warnings generated: 3
+     [java] Missing classes: 9
+[[1;34mINFO[m] Done FindBugs Analysis....
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  14.473 s
+[[1;34mINFO[m] Finished at: 2024-04-16T13:19:27Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4NwZF6vr1zOP00Mug70n9DHQq+qITttQ4/IKpGzWEaZBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+pT4efvgAAAA==[0m[Pipeline] }
+[8mha:////4E2Z22vMdDAR0Q7U5NzOb/hOQ+FKiFmuojw7/G4z3Cv5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AG2zdLNvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4C5hku2759cSTyqydfez0RoGrIBy+0os66YDBESdmUeiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP7sqItW+AAAA[0m[Pipeline] }
+[8mha:////4KBle85dX7ukgqv7hlZCYzljsBQjp+36IOHiVjt6Gxw1AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRCh2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvP6Sod4e+AAAA[0m[Pipeline] // stage
+[8mha:////4Cfqj/MbpBTSoXPj3ggxgPW19JhdWCQfIwzFIY2u3f4SAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSF0QYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlbp+taT7P6g2QIQilwgAAAA==[0m[Pipeline] stage
+[8mha:////4IdWULe8sKv6O7EpITlLPr1qRH3DS+FgFNQDH9fk1R7zAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KRNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPIshjPcIAAAA=[0m[Pipeline] { (Archive Reports)
+[8mha:////4OiCON3rjgZPusf2DA5ZZcfMqYmKjMBXAD3YazXO1AK8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBj0vY+u+AAAA[0m[Pipeline] tool
+[8mha:////4HRECUGaRSEu6FiOo7RPL0hmOwVYYAs7Y7MkVtxlr2zsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN3weePK+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4PGSHRZJR8dwWRNn8hVLp76gbR/6gdZTWDifdTE3ZYQ/AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AQkJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAA8BHNAwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4EzWpsuPsOCfV0oPYcOGOk7ULikj4+Drz8PQX6p9orWLAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] {
+[8mha:////4OAE8tPk0gy9WM7ACYZIwcp6VwvcC9h697Ax+5v6IcbjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAQVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/4iFt7vgAAAA==[0m[Pipeline] echo
+Archiving SpotBugs and PMD reports...
+[8mha:////4CSDivpJ4DOOlBkfYk4fiOmxYpZxXQCFmOYmu/VY/QJ/AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAublAYr4AAAA=[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+Recording fingerprints
+[8mha:////4AyMUSnS8Ib1u8CjI3E8vNdFqXLrd2Y8qLeaB07PmuXlAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAQG7Gq74AAAA=[0m[Pipeline] }
+[8mha:////4LEbO7hHCtVpF27bLNFHhxC2G6nCmyfKI0Ej84hNUDubAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAc42dF74AAAA=[0m[Pipeline] // withEnv
+[8mha:////4GEYWDOxQI7A000jkhWQGTlTcpCqwarOKjzfCJVdK1lNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpkgpR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrKpc9XNB3bBKXS+AAAA[0m[Pipeline] }
+[8mha:////4DxKFtkOnq3clVJhfllR76zA/d3nI+E1Vp7vLIzN0kR0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpkgpR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrJpctX1B0Uicsi+AAAA[0m[Pipeline] // stage
+[8mha:////4FVHfuRfeEX9k0cs0ou/CtlIDUWfeRyMOeN1y/lDesSKAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDCAh1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bdvd5Vm8vi7dOwgAAAA==[0m[Pipeline] stage
+[8mha:////4NJ7nE3J61AOTcGJ+UfprjogiwhCKW2ggoFYOR7KomnJAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] { (Archive Reports 12)
+[8mha:////4NjpAKtzIyLbh/m8LN+8mo8pYCZCF72YwZDuDbvOmaZlAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzN5Fy++AAAA[0m[Pipeline] tool
+[8mha:////4DhbzK760WscwwQuk2kYIjPhnpp1W6QgFQh3OkYIK+CvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN3JIDDa+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4G+n9lSk7YQAsTnAPfQTeMMYPEmX4w0btRX3ctq2BmWTAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUBRhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQHWYnb4wgAAAA==[0m[Pipeline] withEnv
+[8mha:////4E/wXe8Nr/80uXrRHH7KXYiPHlIvgGzNFv7ZCx/toCgnAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUFhbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAQB2j23CAAAA[0m[Pipeline] {
+[8mha:////4GwTlFiVebsiJTAtBq0jCq7pc7t0O/UmuMJvftNosxHCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNzkd4Tq+AAAA[0m[Pipeline] emailext
+Sending email to: bilal13.fethi@gmail.com
+[8mha:////4LE0mcrG57vyD08CxF+tbyrUqazpq7k9cIpdilOBkqebAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgHITZ9tvgAAAA==[0m[Pipeline] }
+[8mha:////4KDsr+ZIafSoevj0C42ntNRMJarzqxmF+L8KTFl/vsxvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgWgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN+ZNnQe+AAAA[0m[Pipeline] // withEnv
+[8mha:////4J8see7mth46DfcrBPl6MdmVRzVJio4BgPN5Lf/0tr8XAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBQpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPiNYiHm+AAAA[0m[Pipeline] }
+[8mha:////4KbNh6qPXgRSSyqQcWwldXWuoBNvMXDlm8xHcixgbL2XAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpSIOoaC03vMAkh3Fi3Rnbwal4EV/jD1hEomKL1c4283rDOgY4cjBiQBotxc4K7yZTlsgcxqvjLAa+iI4pskOhMCvu8bSg4oSwpKphJWGD1DmOlkyCrRz0QzdOk2nOKZTvIKG2/R2eUMliTjqkL8wBdrepj0w/z18BzN4nqNu21L79ABsaG4i+AAAA[0m[Pipeline] // stage
+[8mha:////4MJh1bSrNNJxAqcS35CLFlhjzG8/KfKPsZj5GW8+7qUtAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULCCEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wfb7j7P6g0XQgO0wgAAAA==[0m[Pipeline] stage
+[8mha:////4ObihBXNqupsmGC5LaGhpLmhFGAyRzNSuNuqJPN7EuN3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUsyu2PCAAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4HJ/rWpwH/A6oMmaM8J7GcdggNsyuu1gseOgpi836NRyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBiGBjUy+AAAA[0m[Pipeline] echo
+Sending email with analysis results...
+[8mha:////4FRf1migcV12ukXNvFYtih7zr2TpU0pqyVY8Xq/WTR0nAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBUgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AFfUI2cvgAAAA==[0m[Pipeline] emailext
+Error evaluating token: Error processing tokens
+Sending email to: bilal13.fethi@gmail.com
+[8mha:////4NNz2h/KOQyUHnZ5VuC0pugDqcb8cocyQGJ9qTPlKleuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGkBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/TX/z/vgAAAA==[0m[Pipeline] }
+[8mha:////4LCfYr54LQiscmcJJLpsxOLNT3r5qa+7VjdSZyFVSi2cAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUZACUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ73Md6g/sMNfpvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CIWIhUH1CDSiTCuyqhh25IWSSSXFD+EMC4pmvL0SpVXAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIEQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv8u1PXwAiVhyir4AAAA=[0m[Pipeline] }
+[8mha:////4G6TD++91v0F6U9tnJ3p9iWOAgLv02dmCbIPeiCt+CtJAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCSQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+12u7eEDp1hw4L4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4MCNKJpcBucs6Gm9A7jsIMTu41O2jEmeBtaophYZYaxYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiFIgCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF52Oeq6w+mM/BSvgAAAA==[0m[Pipeline] }
+[8mha:////4NGBlj25sVpviEmWDiST/w1DTPzO3yUzbJGsX18xvvevAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICDRQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDPtdu+wGecWOjvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4OLRHUiCr4ChM7jI80/tphN4WtiKzlla+cVG7rWLfw6RAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IsJgzGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0HiBQ8tr0AAAA=[0m[Pipeline] }
+[8mha:////4Ldrsbyb2dEB01eC+IN4JWe42Ws05E3Y/wWksI9oJliDAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpKEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+APoWCKq9AAAA[0m[Pipeline] // node
+[8mha:////4JEoKr0+aO3lX4K8hFHyF6xqatjs6r+BTInYTz+iuzX8AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRaBBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+ANwPb+C9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

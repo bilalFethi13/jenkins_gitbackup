@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<results>
+<api>
+	<uri>Installing</uri>
+	<samples>30</samples>
+	<average>199</average>
+	<min>58</min>
+	<median>70</median>
+	<ninetieth>558</ninetieth>
+	<ninetyFifth>565</ninetyFifth>
+	<max>648</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>Installing-0</uri>
+	<samples>30</samples>
+	<average>42</average>
+	<min>26</min>
+	<median>28</median>
+	<ninetieth>85</ninetieth>
+	<ninetyFifth>113</ninetyFifth>
+	<max>214</max>
+	<httpCode>301</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>Installing-1</uri>
+	<samples>30</samples>
+	<average>128</average>
+	<min>14</min>
+	<median>16</median>
+	<ninetieth>392</ninetieth>
+	<ninetyFifth>424</ninetyFifth>
+	<max>429</max>
+	<httpCode>301</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>Installing-2</uri>
+	<samples>30</samples>
+	<average>25</average>
+	<min>16</min>
+	<median>19</median>
+	<ninetieth>43</ninetieth>
+	<ninetyFifth>46</ninetyFifth>
+	<max>50</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>Pipline</uri>
+	<samples>30</samples>
+	<average>45</average>
+	<min>42</min>
+	<median>44</median>
+	<ninetieth>51</ninetieth>
+	<ninetyFifth>51</ninetyFifth>
+	<max>57</max>
+	<httpCode>404</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>Pipline-0</uri>
+	<samples>30</samples>
+	<average>28</average>
+	<min>27</min>
+	<median>28</median>
+	<ninetieth>29</ninetieth>
+	<ninetyFifth>29</ninetyFifth>
+	<max>36</max>
+	<httpCode>301</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>Pipline-1</uri>
+	<samples>30</samples>
+	<average>17</average>
+	<min>14</min>
+	<median>16</median>
+	<ninetieth>21</ninetieth>
+	<ninetyFifth>22</ninetyFifth>
+	<max>23</max>
+	<httpCode>404</httpCode>
+	<errors>100.0</errors>
+</api>
+<api>
+	<uri>Security</uri>
+	<samples>30</samples>
+	<average>64</average>
+	<min>58</min>
+	<median>62</median>
+	<ninetieth>70</ninetieth>
+	<ninetyFifth>71</ninetyFifth>
+	<max>76</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>Security-0</uri>
+	<samples>30</samples>
+	<average>27</average>
+	<min>26</min>
+	<median>28</median>
+	<ninetieth>29</ninetieth>
+	<ninetyFifth>29</ninetyFifth>
+	<max>32</max>
+	<httpCode>301</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>Security-1</uri>
+	<samples>30</samples>
+	<average>14</average>
+	<min>14</min>
+	<median>15</median>
+	<ninetieth>16</ninetieth>
+	<ninetyFifth>17</ninetyFifth>
+	<max>19</max>
+	<httpCode>301</httpCode>
+	<errors>0.0</errors>
+</api>
+<api>
+	<uri>Security-2</uri>
+	<samples>30</samples>
+	<average>20</average>
+	<min>16</min>
+	<median>18</median>
+	<ninetieth>26</ninetieth>
+	<ninetyFifth>29</ninetyFifth>
+	<max>33</max>
+	<httpCode>200</httpCode>
+	<errors>0.0</errors>
+</api>
+</results>

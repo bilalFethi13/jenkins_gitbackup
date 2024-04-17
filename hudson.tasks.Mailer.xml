@@ -1,13 +1,13 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.tasks.Mailer_-DescriptorImpl plugin="mailer@472.vf7c289a_4b_420">
-  <defaultSuffix>@gmail.com</defaultSuffix>
+  <defaultSuffix></defaultSuffix>
   <hudsonUrl>http://52.173.254.187:8080/</hudsonUrl>
   <authentication>
-    <username>bilalfethi8@gmail.com</username>
-    <password>{AQAAABAAAAAgOaIj10PL+IX7yjgaVuosjlgrWGn/Q9tOe66aLaozz7PJVdOLAIPDaUFjJGgdNZGZ}</password>
+    <username>jenkins@lodywood.be</username>
+    <password>{AQAAABAAAAAQG1AHLjzUvGThECT70McNB2xPVsFqMMziVWVcWS6INxA=}</password>
   </authentication>
   <replyToAddress>bilal13.fethi@gmail.com</replyToAddress>
-  <smtpHost>smtp.gmail.com</smtpHost>
+  <smtpHost>send.one.com</smtpHost>
   <useSsl>true</useSsl>
   <useTls>false</useTls>
   <smtpPort>465</smtpPort>

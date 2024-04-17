@@ -1,8 +1,10 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.plugins.emailext.ExtendedEmailPublisherDescriptor plugin="email-ext@2.105">
   <mailAccount>
-    <smtpPort>25</smtpPort>
-    <useSsl>false</useSsl>
+    <smtpHost>send.one.com</smtpHost>
+    <smtpPort>465</smtpPort>
+    <credentialsId>82ebab6d-fa1e-4707-8bfb-d8a088e4d495</credentialsId>
+    <useSsl>true</useSsl>
     <useTls>false</useTls>
     <advProperties></advProperties>
     <defaultAccount>true</defaultAccount>

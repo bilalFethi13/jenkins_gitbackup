@@ -1,0 +1,9 @@
+commit ecc160fc2f6a0c41833944a33875446f9eb8664e
+tree 4091bf0a2b0758621867ed8c9d549e80d69f0798
+parent fe9ec80f26659d4497deae4ca4e9da578c857f0c
+author bilal <bilal13.fethi@gmail.com> 2024-04-16 11:39:56 +0000
+committer bilal <bilal13.fethi@gmail.com> 2024-04-16 11:39:56 +0000
+
+    adapt path
+
+:100644 100644 ad6a066986b210cce55e4af874359517fbd8413c eb67323eae915750eccbae9be26a73c4e1510f39 M	pom.xml

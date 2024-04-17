@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-04-16 13:12:39.13 UTC</timestamp>
+  <original>
+    <name>repportByMail</name>
+    <number>16</number>
+  </original>
+  <md5sum>5ad979f4dcb5cf454ac97c63ee22879b</md5sum>
+  <fileName>pmd.xml</fileName>
+  <usages>
+    <entry>
+      <string>repportByMail</string>
+      <ranges>16</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

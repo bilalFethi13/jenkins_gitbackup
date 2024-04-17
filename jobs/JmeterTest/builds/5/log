@@ -1,0 +1,25 @@
+Started by user [8mha:////4Gca9mBWBzd/lg33yTkXSgpnBvzEk6UZc4sfjxDCmGChAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9pMycxBxDYwBvIV7qwgAAAA==[0mbilal fethi
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/JmeterTest
+[JmeterTest] $ /bin/sh -xe /tmp/jenkins638865301134731078.sh
++ /opt/apache-jmeter/apache-jmeter-5.6.3/bin/jmeter -n -t /opt/apache-jmeter/apache-jmeter-5.6.3/bin/jenkins.io.jmx -l /opt/apache-jmeter/apache-jmeter-5.6.3/bin/result.jtl
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using /opt/apache-jmeter/apache-jmeter-5.6.3/bin/jenkins.io.jmx
+Starting standalone test @ 2024 Apr 17 09:27:19 UTC (1713346039729)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     30 in 00:00:01 =   24.3/s Avg:    90 Min:    41 Max:   484 Err:    10 (33.33%)
+Tidying up ...    @ 2024 Apr 17 09:27:21 UTC (1713346041078)
+... end of run
+Creating parser with percentiles:'0,50,90,95,100,' filterRegex:
+Performance: Recording JMeterCsv reports '/var/lib/jenkins/jobs/JmeterTest/builds/5/temp/result.jtl'
+Performance: JMeterCsv copying reports to master, files '[/var/lib/jenkins/jobs/JmeterTest/builds/5/temp/result.jtl]'
+Performance: JMeterCsv parsing local reports '[/var/lib/jenkins/jobs/JmeterTest/builds/5/performance-reports/JMeterCSV/result.jtl]'
+Performance: Parsing report file '/var/lib/jenkins/jobs/JmeterTest/builds/5/performance-reports/JMeterCSV/result.jtl' with filterRegex ''.
+Performance: No threshold configured for making the test unstable
+Performance: No threshold configured for making the test failure
+Performance: File result.jtl reported 18.182% of errors [SUCCESS]. Build status is: SUCCESS
+Finished: SUCCESS

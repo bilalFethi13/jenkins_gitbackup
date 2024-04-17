@@ -1,0 +1,25 @@
+Started by user [8mha:////4Gca9mBWBzd/lg33yTkXSgpnBvzEk6UZc4sfjxDCmGChAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9pMycxBxDYwBvIV7qwgAAAA==[0mbilal fethi
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/checkstyle_warning
+The recommended git tool is: NONE
+using credential 8bf81701-003f-4bc7-8345-cd155468a64b
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/checkstyle_warning/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitlab.com/luc2526/jenkins_checkstyle.git # timeout=10
+Fetching upstream changes from https://gitlab.com/luc2526/jenkins_checkstyle.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_SSH to set credentials 
+Verifying host key using known hosts file
+[8mha:////4JSKzfWAw4QquJyN1ZHVhH0UkyfdrHQ6YqOH4Lx8+w5XAAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgmEo2IFE6fjN+19fes8vTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+Kx+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6AcdrEU/1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- https://gitlab.com/luc2526/jenkins_checkstyle.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision cd1530c1d8cf060b3e9e88227d20e0c2d1692ac9 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cd1530c1d8cf060b3e9e88227d20e0c2d1692ac9 # timeout=10
+Commit message: "Update Sample.java"
+ > git rev-list --no-walk cd1530c1d8cf060b3e9e88227d20e0c2d1692ac9 # timeout=10
+[checkstyle_warning] $ ant checkstyle
+ERROR: command execution failed.Maybe you need to configure the job to choose one of your Ant installations?
+[CheckStyle] Skipping execution of recorder since overall result is 'FAILURE'
+Finished: FAILURE

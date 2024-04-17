@@ -1,0 +1,59 @@
+pipeline {
+    agent any
+
+    tools {
+        // Ensure these names match your Jenkins configurations
+        jdk 'JDK8'
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+        
+        stage('Build and Analyze') {
+            steps {
+                echo 'Building and running static analysis...'
+                // Assuming you're using Maven to build and SpotBugs and PMD are configured in your pom.xml
+                sh 'mvn clean install pmd:pmd'
+                sh 'mvn clean install findbugs:findbugs'
+                // sh 'mvn spotbugs:spotbugs pmd:pmd'
+            }
+        }
+
+        stage('Archive Reports') {
+            steps {
+                echo 'Archiving SpotBugs and PMD reports...'
+                // Adjust paths according to your project structure
+                archiveArtifacts artifacts: 'target/pmd.xml', fingerprint: true
+            }
+        }
+
+        stage('Archive Reports 12') {
+            steps {
+                emailext body : 'Test',
+                subject: 'Static Analysis Report',
+                to: 'bilal13.fethi@gmail.com'
+            }
+        }
+    }
+
+    post {
+        always {
+            echo 'Sending email with analysis results...'
+            emailext (
+                to: 'bilal13.fethi@gmail.com',
+                subject: 'Static Analysis Report - ${env.JOB_NAME} Build #${env.BUILD_NUMBER}',
+                body: """<p>See attached analysis reports from the build:</p>
+                         <p><strong>Job:</strong> ${env.JOB_NAME}</p>
+                         <p><strong>Build:</strong> ${env.BUILD_NUMBER}</p>
+                         <ul>
+                             <li><a href="${env.BUILD_URL}artifact/target/pmd.xml">PMD Report</a></li>
+                         </ul>""",
+                attachmentsPattern: 'target/pmd.xml'
+            )
+        }
+    }
+}

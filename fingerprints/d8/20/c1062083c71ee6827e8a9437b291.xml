@@ -6,11 +6,15 @@
   <usages>
     <entry>
       <string>checkstyle_warning</string>
-      <ranges>1-2</ranges>
+      <ranges>1-6</ranges>
     </entry>
     <entry>
-      <string>chackstyle_job</string>
-      <ranges>1-2</ranges>
+      <string>repportByMail</string>
+      <ranges>1-9,11-12,14,16-17</ranges>
+    </entry>
+    <entry>
+      <string>Freestyle Project 033</string>
+      <ranges>1</ranges>
     </entry>
     <entry>
       <string>firstPipeline</string>
@@ -32,10 +36,20 @@
       <itemFullName>javaEhealth</itemFullName>
       <timestamp0>1712578529203</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1713266588358</timestamp>
+      <itemFullName>sendrepportbymail</itemFullName>
+      <timestamp0>1713261763262</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1713273533386</timestamp>
+      <itemFullName>repportByMail</itemFullName>
+      <timestamp0>1713273124716</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
     <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
-      <timestamp>1712951236853</timestamp>
+      <timestamp>1713354002040</timestamp>
       <nodeName>agent1</nodeName>
-      <timestamp0>1712951123766</timestamp0>
+      <timestamp0>1713352494704</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
   </facets>
 </fingerprint>
